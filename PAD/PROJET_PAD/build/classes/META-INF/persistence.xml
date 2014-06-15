@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+	<persistence-unit name="projet_pad">
+	<jta-data-source>java:jndi/projet_pad</jta-data-source>
+	<class>entity.Societe</class>
+	<class>entity.Offre</class>
+	<class>entity.Formation</class>
+	<class>entity.Candidature</class>
+	<class>entity.Candidat</class>
+	<class>entity.Alerte</class>
+	<class>entity.Admin</class>
+	</persistence-unit>
+</persistence>

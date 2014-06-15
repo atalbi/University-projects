@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash_parameters copyright="anvsoftPFMTheme">
+    <preferences>
+        <global>
+            <basic_property html_title="My Album" loadStyle="Bar" hideAdobeMenu="true" photoDynamicShow="true" anvsoftMenu="false" enableURL="true" interfacetext=""/>
+            <music_property path="" stream="true" loop="true"/>
+            <description_property enable="true" backgroundColor="0xc0c0c0" backgroundAlpha="10" cssText="a:link{text-decoration: underline;} a:hover{color:#ff0000; text-decoration: none;} a:active{color:#0000ff;text-decoration: none;} .blue {color:#0000ff; font-size:15px; font-style:italic; text-decoration: underline;} .body{color:#ff5500;font-size:20px;}" align="bottom"/>
+            <background_property backgroundColor="0xffffff" mode="tile"/>
+        </global>
+        <photo>
+            <basic_property PhotoMaxWidth="800" PhotoMaxHeight="600" photoBackColor="0xffffff" photopadding="60" photoborder="8" EnablephotoTitle="true" photoTitleColor="0x000000" photoButtonColor="0x2c2c2c"/>
+        </photo>
+        <thumbnail>
+            <basic_property thumWidth="200" thumHeight="140" thumbnailborderColor="0xfffbf0" enableThumTitle="false" thumbnailTextColor="0xfffbf0" thumborder="4" thumSpacing="10" defaultscale="60" thumslipStyle="Top"/>
+            <button_property buttoncolor="0xfffbf0"/>
+        </thumbnail>
+    </preferences>
+    <album>
+        <slide jpegURL="thumbs/t_0002.jpg" d_URL="slides/p_0002.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" transitiontime="2" url="index.jsp" title="Candidat" width="588" height="300"/>
+        <slide jpegURL="thumbs/t_0001.jpg" d_URL="slides/p_0001.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" transitiontime="2" url="Recruteur.jsp" title="Recruteur" width="453" height="333"/>
+        <slide jpegURL="thumbs/t_0003.jpg" d_URL="slides/p_0003.png" transition="0" panzoom="1" URLTarget="1" phototime="2" transitiontime="2" url="admin.jsp" title="Administrateur" width="918" height="414"/>
+    </album>
+</flash_parameters>
