@@ -1,0 +1,28 @@
+deplacer([[ab1b,1,1,0]],noir,PieceJ,PieceP,Dir,Res).
+deplacer([[ab1b,1,1,0],[ab1n,2,1,0]],noir,PieceJ,PieceP,Dir,Res).
+deplacer([[ab1b,3,4,0],[ar1n,2,4,0]],noir,PieceJ,PieceP,Dir,Res).
+deplacer([[ab1b,3,4,0],[ar1b,4,3],[sa1n,2,5,0]],noir,PieceJ,PieceP,Dir,Res).
+deplacer([[ab1b,1,1,0],[fo1n,2,1,0]],noir,PieceJ,PieceP,Dir,Res).
+deplacer([[ab1b,4,3,0],[sc1n,3,4,0]],noir,PieceJ,PieceP,Dir,Res,Cout).
+deplacer([[ab1b,4,3,0],[sc1n,3,4,0],[ab1n,2,4,0]],noir,PieceJ,PieceP,Dir,Res).
+hive([[ab1b,4,3,0],[sc1n,3,4,0],[ab1n,2,4,0]],noir,Res,PieceJ,PieceP,Direc,TypCoup).
+
+
+									coupleDiff([X,Y],[A,B]),
+									coupleDiff([X1,Y1],[A,B]),
+									
+									
+ visite([[ab1b,3,4,0],[ab1n,4,3,0]],noir,PieceJ,[X,Y,Z]).									
+ diffPieceAdversaire([[ab1b,3,4,0],[ab1n,4,3,0]],noir,[[4,3,0]]),
+ deplacer([[ab1b,3,4,0],[ab1n,4,3,0]],noir,PieceJ,Res,PieceP,Direc).
+ 
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+recevoirAdversaire([[ab1b,4,3,0],[sc1n,3,4,0],[ab1n,2,4,0]],noir,Res,ab1n,sc1n,sd,TypCoup).
+Res = [[ab1n, 2, 5, 0], [ab1b, 4, 3, 0], [sc1n, 3, 4, 0]],
+PieceJ = ab1n,
+PieceP = sc1n,
+Direc = sd,
+TypCoup = deplacer 
+
+
